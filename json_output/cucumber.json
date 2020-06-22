@@ -1,0 +1,316 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Automation Practice HomePage Test Scenario",
+        "description": "",
+        "id": "home-page-test;automation-practice-homepage-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13101740574,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on home page",
+            "match": {
+              "location": "HomePageStepDefinition.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57521812,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title home page is My Store",
+            "match": {
+              "location": "HomePageStepDefinition.title_home_page_is_My_Store()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4644290812,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user inputs in search bar and user enters \"shoes\" and click",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shoes",
+                  "offset": 43
+                }
+              ],
+              "location": "HomePageStepDefinition.userInputsInSearchBarAndUserEntersAndClick(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3407135277,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user hoover on women label",
+            "match": {
+              "location": "HomePageStepDefinition.userHooverOnWomenLabel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8514920285,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on top trend banner",
+            "match": {
+              "location": "HomePageStepDefinition.user_clicks_on_top_trend_banner()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 611579253,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user input \"abc@hotmail.com\" in newsletter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc@hotmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "HomePageStepDefinition.userInputInNewsletter(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1415212813,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on newsletter button",
+            "match": {
+              "location": "HomePageStepDefinition.user_clicks_on_newsletter_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 333535889,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "exit the browser",
+            "match": {
+              "location": "HomePageStepDefinition.exit_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Automation Practice HomePage Test Scenario",
+        "description": "",
+        "id": "home-page-test;automation-practice-homepage-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7451966119,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on home page",
+            "match": {
+              "location": "HomePageStepDefinition.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18595273,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title home page is My Store",
+            "match": {
+              "location": "HomePageStepDefinition.title_home_page_is_My_Store()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5257924140,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user inputs in search bar and user enters \"clothing\" and click",
+            "match": {
+              "arguments": [
+                {
+                  "val": "clothing",
+                  "offset": 43
+                }
+              ],
+              "location": "HomePageStepDefinition.userInputsInSearchBarAndUserEntersAndClick(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3262693808,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user hoover on women label",
+            "match": {
+              "location": "HomePageStepDefinition.userHooverOnWomenLabel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9600186541,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on top trend banner",
+            "match": {
+              "location": "HomePageStepDefinition.user_clicks_on_top_trend_banner()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 480067285,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user input \"123@hotmail.com\" in newsletter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123@hotmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "HomePageStepDefinition.userInputInNewsletter(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1385779143,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on newsletter button",
+            "match": {
+              "location": "HomePageStepDefinition.user_clicks_on_newsletter_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 205471807,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "exit the browser",
+            "match": {
+              "location": "HomePageStepDefinition.exit_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home Page Test",
+    "description": "",
+    "id": "home-page-test",
+    "keyword": "Feature",
+    "uri": "homepage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 23,
+        "name": "Automation Practice Login Test Scenario",
+        "description": "",
+        "id": "automation-practice;automation-practice-login-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8405322039,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42483254,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "title of login page is My Store",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_My_Store()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 239625084,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automation Practice",
+    "description": "",
+    "id": "automation-practice",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

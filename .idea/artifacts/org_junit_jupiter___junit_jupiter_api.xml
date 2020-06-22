@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="org.junit.jupiter » junit-jupiter-api">
+    <output-path>$PROJECT_DIR$/out/artifacts/org_junit_jupiter___junit_jupiter_api</output-path>
+    <root id="archive" name="org.junit.jupiter » junit-jupiter-api.jar" />
+  </artifact>
+</component>

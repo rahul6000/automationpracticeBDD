@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="68.436051">
+<testcase classname="Home Page Test" name="Automation Practice HomePage Test Scenario" time="32.085937">
+<system-out><![CDATA[Given user is on home page..................................................passed
+When title home page is My Store............................................passed
+Then user inputs in search bar and user enters "shoes" and click............passed
+Then user hoover on women label.............................................passed
+Then user clicks on top trend banner........................................passed
+Then user input "abc@hotmail.com" in newsletter.............................passed
+Then user clicks on newsletter button.......................................passed
+Then exit the browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Home Page Test" name="Automation Practice HomePage Test Scenario 2" time="27.662684">
+<system-out><![CDATA[Given user is on home page..................................................passed
+When title home page is My Store............................................passed
+Then user inputs in search bar and user enters "clothing" and click.........passed
+Then user hoover on women label.............................................passed
+Then user clicks on top trend banner........................................passed
+Then user input "123@hotmail.com" in newsletter.............................passed
+Then user clicks on newsletter button.......................................passed
+Then exit the browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice" name="Automation Practice Login Test Scenario" time="8.68743">
+<system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is My Store........................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
